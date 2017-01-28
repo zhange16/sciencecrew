@@ -1,0 +1,424 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7450 7500 0    60   ~ 0
+PDB and IO Board
+Text Notes 10600 7650 0    60   ~ 0
+1.0
+Text Notes 7050 6800 0    60   ~ 0
+Power Distribution and IO Module for University of Washington Husky Robotics. \nDesigned and developed by Cai Biesinger and Jaden Bottemiller.
+$Comp
+L GND #PWR?
+U 1 1 588BDE64
+P 1350 1400
+F 0 "#PWR?" H 1350 1150 50  0001 C CNN
+F 1 "GND" H 1350 1250 50  0000 C CNN
+F 2 "" H 1350 1400 50  0000 C CNN
+F 3 "" H 1350 1400 50  0000 C CNN
+	1    1350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 588BDE87
+P 1050 1400
+F 0 "#PWR?" H 1050 1150 50  0001 C CNN
+F 1 "GNDD" H 1050 1250 50  0000 C CNN
+F 2 "" H 1050 1400 50  0000 C CNN
+F 3 "" H 1050 1400 50  0000 C CNN
+	1    1050 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 1350 0    60   Input ~ 0
+GNDD
+Text GLabel 1350 1350 2    60   Input ~ 0
+GND
+$Comp
+L +12V #PWR?
+U 1 1 588BDF08
+P 1850 1250
+F 0 "#PWR?" H 1850 1100 50  0001 C CNN
+F 1 "+12V" H 1850 1390 50  0000 C CNN
+F 2 "" H 1850 1250 50  0000 C CNN
+F 3 "" H 1850 1250 50  0000 C CNN
+	1    1850 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 1350 2    60   Input ~ 0
+12V
+$Comp
+L CONN_01X02 P1
+U 1 1 588BDF7F
+P 1400 800
+F 0 "P1" H 1400 950 50  0000 C CNN
+F 1 "ROBOT_PWR_IN" V 1500 800 50  0000 C CNN
+F 2 "" H 1400 800 50  0000 C CNN
+F 3 "" H 1400 800 50  0000 C CNN
+	1    1400 800 
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_01X03 P2
+U 1 1 588BEB00
+P 2700 1050
+F 0 "P2" H 2700 1250 50  0000 C CNN
+F 1 "12V-5V_REG" V 2800 1050 50  0000 C CNN
+F 2 "" H 2700 1050 50  0000 C CNN
+F 3 "" H 2700 1050 50  0000 C CNN
+	1    2700 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 588BEC3C
+P 2700 1450
+F 0 "#PWR?" H 2700 1200 50  0001 C CNN
+F 1 "GNDD" H 2700 1300 50  0000 C CNN
+F 2 "" H 2700 1450 50  0000 C CNN
+F 3 "" H 2700 1450 50  0000 C CNN
+	1    2700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 588BEC54
+P 2300 1250
+F 0 "#PWR?" H 2300 1100 50  0001 C CNN
+F 1 "+12V" H 2300 1390 50  0000 C CNN
+F 2 "" H 2300 1250 50  0000 C CNN
+F 3 "" H 2300 1250 50  0000 C CNN
+	1    2300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 588BEC6C
+P 3100 1250
+F 0 "#PWR?" H 3100 1100 50  0001 C CNN
+F 1 "+5V" H 3100 1390 50  0000 C CNN
+F 2 "" H 3100 1250 50  0000 C CNN
+F 3 "" H 3100 1250 50  0000 C CNN
+	1    3100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X23 P3
+U 1 1 588BF332
+P 8500 2450
+F 0 "P3" H 8500 3650 50  0000 C CNN
+F 1 "BBB_P9_HEADER" V 8500 2450 50  0000 C CNN
+F 2 "" H 8500 1600 50  0000 C CNN
+F 3 "" H 8500 1600 50  0000 C CNN
+	1    8500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X23 P4
+U 1 1 588BF4F7
+P 9750 2450
+F 0 "P4" H 9750 3650 50  0000 C CNN
+F 1 "BBB_P8_HEADER" V 9750 2450 50  0000 C CNN
+F 2 "" H 9750 1600 50  0000 C CNN
+F 3 "" H 9750 1600 50  0000 C CNN
+	1    9750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P5
+U 1 1 588BFF40
+P 10950 5950
+F 0 "P5" H 10950 6200 50  0000 C CNN
+F 1 "I2C_UV_Sensor" V 11050 5950 50  0000 C CNN
+F 2 "" H 10950 5950 50  0000 C CNN
+F 3 "" H 10950 5950 50  0000 C CNN
+	1    10950 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P6
+U 1 1 588C004D
+P 10150 5950
+F 0 "P6" H 10150 6200 50  0000 C CNN
+F 1 "I2C_Distance_Sensor" V 10250 5950 50  0000 C CNN
+F 2 "" H 10150 5950 50  0000 C CNN
+F 3 "" H 10150 5950 50  0000 C CNN
+	1    10150 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1400 1050 1350
+Wire Wire Line
+	1050 1350 1200 1350
+Wire Wire Line
+	1200 1350 1350 1350
+Wire Wire Line
+	1350 1350 1350 1400
+Wire Wire Line
+	1200 1350 1200 1150
+Connection ~ 1200 1350
+Wire Wire Line
+	1850 1250 1850 1350
+Wire Wire Line
+	1850 1350 1650 1350
+Wire Wire Line
+	1650 1350 1650 1150
+Wire Wire Line
+	1650 1150 1450 1150
+Wire Wire Line
+	1450 1150 1450 1000
+Wire Wire Line
+	1200 1150 1350 1150
+Wire Wire Line
+	1350 1150 1350 1000
+Wire Wire Line
+	2600 1250 2600 1400
+Wire Wire Line
+	2600 1400 2300 1400
+Wire Wire Line
+	2300 1400 2300 1250
+Wire Wire Line
+	2700 1250 2700 1450
+Wire Wire Line
+	2800 1250 2800 1400
+Wire Wire Line
+	2800 1400 3100 1400
+Wire Wire Line
+	3100 1400 3100 1250
+Wire Wire Line
+	9950 5800 9850 5800
+Wire Wire Line
+	9850 5800 9850 5600
+Wire Wire Line
+	9950 5900 9850 5900
+Wire Wire Line
+	9850 5900 9850 6250
+Wire Wire Line
+	10750 5800 10650 5800
+Wire Wire Line
+	10650 5800 10650 5600
+Wire Wire Line
+	10750 5900 10650 5900
+Wire Wire Line
+	10650 5900 10650 6250
+$Comp
+L +5V #PWR?
+U 1 1 588C030E
+P 10650 5600
+F 0 "#PWR?" H 10650 5450 50  0001 C CNN
+F 1 "+5V" H 10650 5740 50  0000 C CNN
+F 2 "" H 10650 5600 50  0000 C CNN
+F 3 "" H 10650 5600 50  0000 C CNN
+	1    10650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 588C032E
+P 9850 5600
+F 0 "#PWR?" H 9850 5450 50  0001 C CNN
+F 1 "+5V" H 9850 5740 50  0000 C CNN
+F 2 "" H 9850 5600 50  0000 C CNN
+F 3 "" H 9850 5600 50  0000 C CNN
+	1    9850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 588C0386
+P 9850 6250
+F 0 "#PWR?" H 9850 6000 50  0001 C CNN
+F 1 "GNDD" H 9850 6100 50  0000 C CNN
+F 2 "" H 9850 6250 50  0000 C CNN
+F 3 "" H 9850 6250 50  0000 C CNN
+	1    9850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDD #PWR?
+U 1 1 588C03A6
+P 10650 6250
+F 0 "#PWR?" H 10650 6000 50  0001 C CNN
+F 1 "GNDD" H 10650 6100 50  0000 C CNN
+F 2 "" H 10650 6250 50  0000 C CNN
+F 3 "" H 10650 6250 50  0000 C CNN
+	1    10650 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P7
+U 1 1 588C0A6E
+P 9250 5950
+F 0 "P7" H 9250 6250 50  0000 C CNN
+F 1 "SPI_Thermocouple" V 9350 5950 50  0000 C CNN
+F 2 "" H 9250 5950 50  0000 C CNN
+F 3 "" H 9250 5950 50  0000 C CNN
+	1    9250 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5750 8850 5750
+Wire Wire Line
+	8850 5750 8850 5600
+Wire Wire Line
+	9050 5850 8850 5850
+Wire Wire Line
+	8850 5850 8850 6250
+$Comp
+L GNDD #PWR?
+U 1 1 588C0BE4
+P 8850 6250
+F 0 "#PWR?" H 8850 6000 50  0001 C CNN
+F 1 "GNDD" H 8850 6100 50  0000 C CNN
+F 2 "" H 8850 6250 50  0000 C CNN
+F 3 "" H 8850 6250 50  0000 C CNN
+	1    8850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 588C0C06
+P 8850 5600
+F 0 "#PWR?" H 8850 5450 50  0001 C CNN
+F 1 "+5V" H 8850 5740 50  0000 C CNN
+F 2 "" H 8850 5600 50  0000 C CNN
+F 3 "" H 8850 5600 50  0000 C CNN
+	1    8850 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 2250 0    60   Input ~ 0
+I2C_SCL
+Text GLabel 8750 2250 2    60   Input ~ 0
+I2C_SDA
+Text GLabel 10750 6000 0    60   Input ~ 0
+I2C_SDA
+Text GLabel 9950 6000 0    60   Input ~ 0
+I2C_SDA
+Text GLabel 9950 6100 0    60   Input ~ 0
+I2C_SCL
+Text GLabel 10750 6100 0    60   Input ~ 0
+I2C_SCL
+Text GLabel 8750 2650 2    60   Input ~ 0
+SPI_CS
+Text GLabel 8750 2350 2    60   Input ~ 0
+SPI_CLK
+Text GLabel 8250 2350 0    60   Input ~ 0
+SPI_DO
+Text GLabel 9050 5950 0    60   Input ~ 0
+SPI_DO
+Text GLabel 9050 6050 0    60   Input ~ 0
+SPI_CLK
+Text GLabel 9050 6150 0    60   Input ~ 0
+SPI_CS
+$Comp
+L CONN_01X08 P9
+U 1 1 588C1FBA
+P 850 2600
+F 0 "P9" H 850 3050 50  0000 C CNN
+F 1 "MOTOR_PWR_OUT" V 950 2600 50  0000 C CNN
+F 2 "" H 850 2600 50  0000 C CNN
+F 3 "" H 850 2600 50  0000 C CNN
+	1    850  2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 588C29C5
+P 1150 2150
+F 0 "#PWR?" H 1150 2000 50  0001 C CNN
+F 1 "+12V" H 1150 2290 50  0000 C CNN
+F 2 "" H 1150 2150 50  0000 C CNN
+F 3 "" H 1150 2150 50  0000 C CNN
+	1    1150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 588C29E9
+P 1100 3050
+F 0 "#PWR?" H 1100 2800 50  0001 C CNN
+F 1 "GND" H 1100 2900 50  0000 C CNN
+F 2 "" H 1100 3050 50  0000 C CNN
+F 3 "" H 1100 3050 50  0000 C CNN
+	1    1100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2350 1100 2350
+Wire Wire Line
+	1100 2350 1100 2550
+Wire Wire Line
+	1100 2550 1100 2750
+Wire Wire Line
+	1100 2750 1100 2950
+Wire Wire Line
+	1100 2950 1100 3050
+Wire Wire Line
+	1050 2550 1100 2550
+Connection ~ 1100 2550
+Wire Wire Line
+	1050 2750 1100 2750
+Connection ~ 1100 2750
+Wire Wire Line
+	1050 2950 1100 2950
+Connection ~ 1100 2950
+Wire Wire Line
+	1050 2250 1150 2250
+Wire Wire Line
+	1150 2150 1150 2250
+Wire Wire Line
+	1150 2250 1150 2450
+Wire Wire Line
+	1150 2450 1150 2650
+Wire Wire Line
+	1150 2650 1150 2850
+Wire Wire Line
+	1150 2850 1050 2850
+Connection ~ 1150 2250
+Wire Wire Line
+	1050 2650 1150 2650
+Connection ~ 1150 2650
+Wire Wire Line
+	1050 2450 1150 2450
+Connection ~ 1150 2450
+$EndSCHEMATC
