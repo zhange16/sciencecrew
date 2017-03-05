@@ -182,10 +182,6 @@ F 3 "" H 8950 6250 50  0000 C CNN
 	1    8950 6250
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 1800 0    60   Input ~ 0
-I2C_SCL
-Text GLabel 8850 1800 2    60   Input ~ 0
-I2C_SDA
 $Comp
 L CONN_01X08 P9
 U 1 1 588C1FBA
@@ -329,16 +325,6 @@ F 3 "" H 5800 7550 50  0000 C CNN
 	1    5800 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 1900 0    60   Input ~ 0
-SPI_DO
-Text GLabel 8850 1900 2    60   Input ~ 0
-SPI_CLK
-Text GLabel 8850 1700 2    60   Input ~ 0
-SPI_DI
-Text GLabel 8350 1700 0    60   Input ~ 0
-SPI_CS
-Text GLabel 8850 2800 2    60   Input ~ 0
-MOISTURE_IN
 $Comp
 L CONN_01X03 P21
 U 1 1 58969D5A
@@ -1701,4 +1687,32 @@ Wire Wire Line
 	10900 3100 10450 3100
 Wire Wire Line
 	9950 3100 9500 3100
+Text Label 9300 2800 2    40   ~ 0
+MOISTURE_IN
+Wire Wire Line
+	9300 2800 8850 2800
+Text Label 9150 1900 2    40   ~ 0
+SPI_CLK
+Text Label 9150 1800 2    40   ~ 0
+I2C_SDA
+Text Label 9150 1700 2    40   ~ 0
+SPI_DI
+Wire Wire Line
+	9150 1700 8850 1700
+Wire Wire Line
+	8850 1800 9150 1800
+Wire Wire Line
+	9150 1900 8850 1900
+Text Label 8050 1700 0    40   ~ 0
+SPI_CS
+Text Label 8050 1800 0    40   ~ 0
+I2C_SCL
+Text Label 8050 1900 0    40   ~ 0
+SPI_DO
+Wire Wire Line
+	8050 1900 8350 1900
+Wire Wire Line
+	8350 1800 8050 1800
+Wire Wire Line
+	8050 1700 8350 1700
 $EndSCHEMATC
