@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:science_pdb_io_brd-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -986,7 +987,7 @@ F 3 "" H 1200 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-science_pdb_io_brd D2
 U 1 1 58BC1092
 P 1200 1550
 F 0 "D2" H 1200 1650 50  0000 C CNN
@@ -1022,17 +1023,6 @@ F 1 "C" H 2825 6650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2838 6600 50  0001 C CNN
 F 3 "" H 2800 6750 50  0000 C CNN
 	1    2800 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDD #PWR033
-U 1 1 58BC7CCF
-P 2800 7000
-F 0 "#PWR033" H 2800 6750 50  0001 C CNN
-F 1 "GNDD" H 2800 6850 50  0000 C CNN
-F 2 "" H 2800 7000 50  0000 C CNN
-F 3 "" H 2800 7000 50  0000 C CNN
-	1    2800 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1166,7 +1156,7 @@ F 3 "" H 1550 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-science_pdb_io_brd D3
 U 1 1 58BF0CDA
 P 1550 1550
 F 0 "D3" H 1550 1650 50  0000 C CNN
@@ -1520,4 +1510,51 @@ Wire Wire Line
 	2250 1150 2350 1150
 Wire Wire Line
 	2350 1150 2350 1250
+Wire Wire Line
+	10450 2600 10850 2600
+Wire Wire Line
+	10450 2500 10850 2500
+Wire Wire Line
+	10450 2300 10850 2300
+Wire Wire Line
+	10450 2200 10850 2200
+Wire Wire Line
+	10450 2000 10850 2000
+Wire Wire Line
+	10450 1900 10850 1900
+Text Label 10850 1900 2    40   ~ 0
+ENC1_A
+Text Label 10850 2000 2    40   ~ 0
+ENC1_B
+Text Label 10850 2200 2    40   ~ 0
+ENC2_A
+Text Label 10850 2300 2    40   ~ 0
+ENC2_B
+Text Label 10850 2500 2    40   ~ 0
+ENC3_A
+Text Label 10850 2600 2    40   ~ 0
+ENC3_B
+Wire Wire Line
+	10450 1800 10850 1800
+Wire Wire Line
+	10450 2100 10850 2100
+Wire Wire Line
+	10450 2400 10850 2400
+Text Label 10850 1800 2    40   ~ 0
+ENC1_BUT
+Text Label 10850 2100 2    40   ~ 0
+ENC2_BUT
+Text Label 10850 2400 2    40   ~ 0
+ENC3_BUT
+$Comp
+L GNDD #PWR?
+U 1 1 58D38FCA
+P 2800 7050
+F 0 "#PWR?" H 2800 6800 50  0001 C CNN
+F 1 "GNDD" H 2800 6900 50  0000 C CNN
+F 2 "" H 2800 7050 50  0000 C CNN
+F 3 "" H 2800 7050 50  0000 C CNN
+	1    2800 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
