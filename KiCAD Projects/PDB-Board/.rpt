@@ -1,0 +1,26 @@
+** Drc report for C:\Users\caibi\Development\sciencecrew\KiCAD Projects\PDB-Board\Science PDB Board.kicad_pcb **
+** Created on  **
+
+** Found 0 DRC errors **
+
+** Found 6 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (6.0500 in,4.0000 in): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of D1 net Net-(D1-Pad2)
+    @ (6.0500 in,3.7287 in): Pad 2 on F.Cu, Non-copper of R1
+ErrType(2): Unconnected pads
+    @ (6.3500 in,4.0000 in): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of D2 net Net-(D2-Pad2)
+    @ (6.3500 in,3.7287 in): Pad 2 on F.Cu, Non-copper of R2
+ErrType(2): Unconnected pads
+    @ (6.1429 in,5.2669 in): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P1 net GND
+    @ (6.0500 in,4.1000 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of D1
+ErrType(2): Unconnected pads
+    @ (7.6169 in,3.8976 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P3 net GND
+    @ (6.3500 in,4.1000 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of D2
+ErrType(2): Unconnected pads
+    @ (6.3500 in,4.1000 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of D2 net GND
+    @ (6.0500 in,4.1000 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of D1
+ErrType(2): Unconnected pads
+    @ (6.2000 in,3.2500 in): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P4 net GND
+    @ (6.0500 in,4.1000 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of D1
+
+** End of Report **
