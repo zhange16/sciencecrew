@@ -1638,4 +1638,8 @@ Text Label 7650 1750 2    40   ~ 0
 CAM_TRIG
 Wire Wire Line
 	7650 1750 7150 1750
+Text Label 8050 1600 0    40   ~ 0
+CAM_TRIG
+Wire Wire Line
+	8050 1600 8350 1600
 $EndSCHEMATC
