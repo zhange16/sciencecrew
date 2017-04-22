@@ -541,7 +541,7 @@
   (gr_text M1+ (at 143.51 137.414) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "UW Husky Robotics 2017\nCai B. / Jaden B.\nSci Power Distribution v1" (at 177.165 82.55) (layer F.SilkS)
+  (gr_text "UW Husky Robotics 2017\nCai B. / Jaden B.\nSci Power Distribution v1.1" (at 177.165 82.55) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 114.3 139.7) (end 114.3 76.2) (angle 90) (layer Edge.Cuts) (width 0.15))
