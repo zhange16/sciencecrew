@@ -1,14 +1,8 @@
-** Drc report for C:/Users/caibi/Development/sciencecrew/KiCAD Projects/PDB&IO-Board/science_pdb_io_brd.kicad_pcb **
+** Drc report for C:\Users\caibi\Development\sciencecrew\KiCAD Projects\PDB&IO-Board\science_pdb_io_brd.kicad_pcb **
 ** Created on  **
 
 ** Found 0 DRC errors **
 
-** Found 2 unconnected pads **
-ErrType(2): Unconnected pads
-    @ (102.870 mm,109.220 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P17 net GNDD
-    @ (102.870 mm,102.870 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P18
-ErrType(2): Unconnected pads
-    @ (118.110 mm,26.035 mm): Pad 7 on F.Cu, B.Cu, Internal, Non-copper of U1 net GNDD
-    @ (119.475 mm,36.830 mm): Pad 2 on F.Cu, Non-copper of C4
+** Found 0 unconnected pads **
 
 ** End of Report **
