@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:/Users/caibi/Development/sciencecrew/KiCAD Projects/PDB&IO-Board/science_pdb_io_brd.sch")
-    (date "2017-04-22 14:13:57")
+    (source "C:\\Users\\caibi\\Development\\sciencecrew\\KiCAD Projects\\PDB&IO-Board\\science_pdb_io_brd.sch")
+    (date "2017-04-22 18:12:44")
     (tool "Eeschema 4.0.3-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -251,6 +251,7 @@
       (tstamp 58BF0CDA))
     (comp (ref P1)
       (value PWR_IN)
+      (footprint .pretty:PHOENIX_1792229)
       (libsource (lib conn) (part CONN_01X02))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BBD5DB))
