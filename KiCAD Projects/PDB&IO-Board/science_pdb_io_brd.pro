@@ -1,4 +1,4 @@
-update=3/22/2017 1:46:45 PM
+update=2017-04-24 18:25:49
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../PDB-Board/.pretty
 [eeschema/libraries]
 LibName1=science_pdb_io_brd-rescue
 LibName2=power
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=pdb-io
+LibName32=scienceparts
