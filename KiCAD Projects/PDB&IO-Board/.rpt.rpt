@@ -3,48 +3,6 @@
 
 ** Found 0 DRC errors **
 
-** Found 14 unconnected pads **
-ErrType(2): Unconnected pads
-    @ (97.790 mm,125.730 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P9 net +5V
-    @ (102.870 mm,130.175 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P10
-ErrType(2): Unconnected pads
-    @ (102.870 mm,130.175 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P10 net +5V
-    @ (125.890 mm,125.730 mm): Pad 8 on F.Cu, Non-copper of U2
-ErrType(2): Unconnected pads
-    @ (88.900 mm,109.220 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P21 net +5V
-    @ (97.790 mm,125.730 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P9
-ErrType(2): Unconnected pads
-    @ (125.890 mm,129.540 mm): Pad 5 on F.Cu, Non-copper of U2 net GNDD
-    @ (120.490 mm,128.270 mm): Pad 3 on F.Cu, Non-copper of U2
-ErrType(2): Unconnected pads
-    @ (97.790 mm,130.810 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P9 net GNDD
-    @ (102.870 mm,135.255 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P10
-ErrType(2): Unconnected pads
-    @ (102.870 mm,135.255 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P10 net GNDD
-    @ (120.490 mm,128.270 mm): Pad 3 on F.Cu, Non-copper of U2
-ErrType(2): Unconnected pads
-    @ (120.490 mm,127.000 mm): Pad 2 on F.Cu, Non-copper of U2 net GNDD
-    @ (121.920 mm,109.220 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P5
-ErrType(2): Unconnected pads
-    @ (120.490 mm,128.270 mm): Pad 3 on F.Cu, Non-copper of U2 net GNDD
-    @ (120.490 mm,127.000 mm): Pad 2 on F.Cu, Non-copper of U2
-ErrType(2): Unconnected pads
-    @ (110.585 mm,125.645 mm): Pad 2 on F.Cu, Non-copper of R18 net /MOTOR6_PWM
-    @ (44.450 mm,52.705 mm): Pad 21 on F.Cu, B.Cu, Internal, Non-copper of P3
-ErrType(2): Unconnected pads
-    @ (46.990 mm,78.105 mm): Pad 42 on F.Cu, B.Cu, Internal, Non-copper of P3 net /MOTOR5_PWM
-    @ (111.220 mm,132.080 mm): Pad 2 on F.Cu, Non-copper of R15
-ErrType(2): Unconnected pads
-    @ (125.890 mm,127.000 mm): Pad 7 on F.Cu, Non-copper of U2 net Net-(P9-Pad2)
-    @ (97.790 mm,128.270 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P9
-ErrType(2): Unconnected pads
-    @ (125.890 mm,128.270 mm): Pad 6 on F.Cu, Non-copper of U2 net Net-(P10-Pad2)
-    @ (102.870 mm,132.715 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P10
-ErrType(2): Unconnected pads
-    @ (120.490 mm,125.730 mm): Pad 1 on F.Cu, Non-copper of U2 net Net-(R15-Pad1)
-    @ (107.220 mm,132.080 mm): Pad 1 on F.Cu, Non-copper of R15
-ErrType(2): Unconnected pads
-    @ (120.490 mm,129.540 mm): Pad 4 on F.Cu, Non-copper of U2 net Net-(R18-Pad1)
-    @ (106.585 mm,125.645 mm): Pad 1 on F.Cu, Non-copper of R18
+** Found 0 unconnected pads **
 
 ** End of Report **
