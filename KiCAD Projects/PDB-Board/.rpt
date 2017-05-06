@@ -3,6 +3,15 @@
 
 ** Found 0 DRC errors **
 
-** Found 0 unconnected pads **
+** Found 3 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (6.3500 in,3.2500 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P5 net +12V
+    @ (5.9500 in,3.2500 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P4
+ErrType(2): Unconnected pads
+    @ (6.1500 in,3.2500 in): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P4 net +5V
+    @ (6.5500 in,3.2500 in): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P5
+ErrType(2): Unconnected pads
+    @ (6.0500 in,3.2500 in): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P4 net GND
+    @ (6.0500 in,3.9500 in): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of D1
 
 ** End of Report **
