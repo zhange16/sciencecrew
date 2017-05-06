@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name .pretty)(type KiCad)(uri "$(KIPRJMOD)\\.pretty")(options "")(descr ""))
-  (lib (name hole)(type KiCad)(uri "$(KIPRJMOD)\\hole.pretty")(options "")(descr ""))
+  (lib (name .pretty)(type KiCad)(uri "C:\\Users\\caibi\\Development\\sciencecrew\\KiCAD Projects\\PDB-Board\\.pretty")(options "")(descr ""))
+  (lib (name hole)(type KiCad)(uri "C:\\Users\\caibi\\Development\\sciencecrew\\KiCAD Projects\\PDB-Board\\hole.pretty")(options "")(descr ""))
 )
