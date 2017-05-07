@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:science_pdb_io_brd-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,9 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:pdb-io
-LIBS:scienceparts
-LIBS:science_pdb_io_brd-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

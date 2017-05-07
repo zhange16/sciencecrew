@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:science_pdb_io_brd-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,6 +29,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pdb-io
+LIBS:scienceparts
+LIBS:science_pdb_io_brd-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1100,24 +1104,18 @@ F 3 "" H 2350 950 50  0000 C CNN
 	1    2350 950 
 	1    0    0    -1  
 $EndComp
-Text Label 10850 1900 2    40   ~ 0
+Text Label 10850 1500 2    40   ~ 0
 ENC1_A
-Text Label 10850 2000 2    40   ~ 0
+Text Label 10850 1600 2    40   ~ 0
 ENC1_B
-Text Label 10850 2200 2    40   ~ 0
+Text Label 9500 1700 0    40   ~ 0
 ENC2_A
-Text Label 10850 2300 2    40   ~ 0
+Text Label 10850 1700 2    40   ~ 0
 ENC2_B
-Text Label 10850 2500 2    40   ~ 0
+Text Label 9500 1200 0    40   ~ 0
 ENC3_A
-Text Label 10850 2600 2    40   ~ 0
+Text Label 9500 1300 0    40   ~ 0
 ENC3_B
-Text Label 10850 1800 2    40   ~ 0
-ENC1_BUT
-Text Label 10850 2100 2    40   ~ 0
-ENC2_BUT
-Text Label 10850 2400 2    40   ~ 0
-ENC3_BUT
 $Comp
 L GNDD #PWR048
 U 1 1 58D38FCA
@@ -1695,24 +1693,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 1150 2350 1250
 Wire Wire Line
-	10450 2600 10850 2600
-Wire Wire Line
-	10450 2500 10850 2500
-Wire Wire Line
-	10450 2300 10850 2300
-Wire Wire Line
-	10450 2200 10850 2200
-Wire Wire Line
-	10450 2000 10850 2000
-Wire Wire Line
-	10450 1900 10850 1900
-Wire Wire Line
-	10450 1800 10850 1800
-Wire Wire Line
-	10450 2100 10850 2100
-Wire Wire Line
-	10450 2400 10850 2400
-Wire Wire Line
 	7150 1050 7300 1050
 Wire Wire Line
 	7300 900  7300 1150
@@ -1812,4 +1792,16 @@ Wire Wire Line
 	1200 3800 1650 3800
 Wire Wire Line
 	1650 3600 1200 3600
+Wire Wire Line
+	10850 1700 10450 1700
+Wire Wire Line
+	10450 1600 10850 1600
+Wire Wire Line
+	10850 1500 10450 1500
+Wire Wire Line
+	9950 1700 9500 1700
+Wire Wire Line
+	9950 1300 9500 1300
+Wire Wire Line
+	9500 1200 9950 1200
 $EndSCHEMATC
